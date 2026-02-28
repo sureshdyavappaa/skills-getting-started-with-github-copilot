@@ -12,5 +12,19 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 ---
 
+## Running backend tests
+
+1. Install dependencies:
+
+	```bash
+	pip install -r requirements.txt
+	```
+
+2. Run the FastAPI backend test suite:
+
+	```bash
+	python -m pytest tests -q
+	```
+
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
